@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  service-token:
+    image: service-token
+    container_name: service-token
+    ports:
+      - "8083:8083"
